@@ -12,6 +12,9 @@ html, body {
   color: @main-font-color;
   width:1000px;
   margin: 0 auto;
+  @media @mobile{
+    width:100%;
+  }
 }
 
 h1, h2, h3, h4, h5 {
@@ -36,5 +39,8 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;  
+  @media @mobile{
+    max-width:100%;
+  }
 }
 
