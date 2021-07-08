@@ -1,1 +1,20 @@
 // Mixins Here
+.displayflex(@justify){
+    display:flex;
+    justify-content: @justify;
+;
+}
+
+.buttonbox(@btncolor,@txtcolor,@boxradius, @boxwidth, @txtalign){
+    background-color:@btncolor;
+    color:@txtcolor;
+    text-align: @txtalign;
+    width:@boxwidth;
+    // display:flex;
+    // justify-content: center;
+    //align-self: flex-start;
+    border-radius: @boxradius;
+    padding:15px 0;
+    font-size:1.4rem;   
+
+}
